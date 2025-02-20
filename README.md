@@ -1,51 +1,51 @@
-# Hello World com Quarkus
+# Hello World with Quarkus
 
-Este é um simples projeto de Hello World utilizando Quarkus, uma framework Java para microserviços.
+This is a simple Hello World project using Quarkus, a Java framework for microservices.
 
 ## Endpoints
 
-O projeto cria um endpoint REST simples:
+The project creates a simple REST endpoint:
 
-- **GET** `/users`: Retorna a mensagem "Hello World!"
+- **GET** `/users`: Returns the message "Hello World!"
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Quarkus**: Framework Java para microserviços
-- **JAX-RS**: API para criação de serviços RESTful
-- **Jakarta EE**: API de componentes para Java
-- **JSON**: Formato de dados utilizado para resposta do endpoint
+- **Quarkus**: Java framework for microservices
+- **JAX-RS**: API for creating RESTful services
+- **Jakarta EE**: Java component API
+- **JSON**: Data format used for the endpoint response
 
-## Como Rodar o Projeto
+## How to Run the Project
 
-1. Clone o repositório:
+1. Clone the repository:
 
     ```bash
-    git clone https://github.com/<seu-usuario>/<nome-do-repositorio>.git
-    cd <nome-do-repositorio>
+    git clone https://github.com/<your-username>/<repository-name>.git
+    cd <repository-name>
     ```
 
-2. Compile e rode o projeto com o Maven:
+2. Build and run the project using Maven:
 
     ```bash
     ./mvnw compile quarkus:dev
     ```
 
-3. Acesse o endpoint no navegador ou Postman:
+3. Access the endpoint in the browser or Postman:
 
     ```bash
     http://localhost:8080/users
     ```
 
-    A resposta será:
+    The response will be:
 
     ```json
     "Hello World!"
     ```
 
-## Contribuições
+## Contributions
 
-Sinta-se à vontade para contribuir com melhorias ou sugestões para o projeto.
+Feel free to contribute improvements or suggestions to the project.
 
-## Licença
+## License
 
-Este projeto está sob a Licença MIT.
+This project is licensed under the MIT License.
